@@ -1,0 +1,41 @@
+{
+  "homePage": {
+    "title": "Bienvenido a la página de inicio",
+    "description": "Esta es la descripción de la página de inicio."
+  },
+  "aboutPage": {
+    "title": "Sobre nosotros",
+    "description": "Esta es la descripción de la página sobre nosotros."
+  },
+  "selectLocale": {
+    "label": "Seleccione el idioma"
+  },
+  "navbar": {
+    "homeButton": "Inicio",
+    "aboutButton": "Acerca de",
+    "playgroundButton": "Área de juegos",
+    "blogButton": "Blog"
+  },
+  "playgroundPage": {
+    "title": "Área de juegos",
+    "translation": {
+      "title": "Traducción",
+      "helloWorld": "¡Hola Mundo!",
+      "translateButton": "Traducir"
+    },
+    "pluralization": {
+      "title": "Pluralización",
+      "apple": "No hay manzanas | Una manzana | {count} manzanas",
+      "addApple": "Agregar"
+    },
+    "interpolation": {
+      "title": "Interpolación",
+      "sayHello": "Hola, {name}",
+      "hobby": "Mi pasatiempo favorito es {0}.",
+      "email": "Puedes contactarme en {account}{'@'}{domain}.com"
+    },
+    "dateTime": {
+      "title": "Traducción de Fecha y Hora"
+    }
+  }
+}
