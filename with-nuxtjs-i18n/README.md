@@ -4,9 +4,9 @@
 
 This example demonstrates how to query multiple locales from Hygraph with Nuxt.js.
 
-• [Demo](#)
+• [Demo](https://nuxtjs-i18n.withheadlesscms.com)
 
-[![Deploy with Vercel](https://vercel.com/button)](#) [![Clone project](https://hygraph.com/button)](#)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=hhttps://github.com/hygraph/hygraph-examples/tree/with-nuxtjs-i18n) [![Clone project](https://hygraph.com/button)](https://app.hygraph.com/clone/d59f610400c442f2b605a7a12225cc3d?name=Hygraph%20Demos)
 
 ## How to Use
 
