@@ -1,0 +1,6 @@
+query getPosts ($locale: [Locale!]!) {
+  localizedPosts(locales: $locale) {
+    title
+    body
+  }
+}

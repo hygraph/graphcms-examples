@@ -1,0 +1,56 @@
+import type { ThemeDefinition } from "vuetify";
+import colors from "vuetify/util/colors";
+
+export const blueLightTheme: ThemeDefinition = {
+  dark: false,
+  colors: {
+    appBackground: "#FAFCFE",
+    button: "#2372CA",
+    buttonText: colors.shades.white,
+    cardBackground: colors.shades.white,
+    cubeBackground: colors.shades.white,
+    error: colors.red.lighten1,
+    footer: colors.shades.white,
+    footerText: "#212121",
+    header: colors.shades.white,
+    headerText: "#2372CA",
+    highEmphasisText: "#212121",
+    icon: "#2372CA",
+    iconSelected: "#2372CA",
+    lowEmphasisText: "#737373",
+    primary: "#2372CA",
+    primarySelection: colors.blue.lighten3,
+    snackbar: "#2372CA",
+    snackbarText: colors.shades.white,
+    subHeader: "#2372CA",
+    subHeaderText: "#2372CA",
+    success: colors.green.base,
+  },
+};
+
+export const blueDarkTheme: ThemeDefinition = {
+  dark: true,
+  colors: {
+    appBackground: "#121212",
+    button: "#47A0EE",
+    buttonText: colors.shades.white,
+    cardBackground: "#1E1E1E",
+    cubeBackground: "#1E1E1E",
+    error: colors.red.lighten3,
+    footer: "#121212",
+    footerText: colors.grey.lighten1,
+    header: "#121212",
+    headerText: "#47A0EE",
+    highEmphasisText: "#E0E1E2",
+    icon: "#47A0EE",
+    iconSelected: "#47A0EE",
+    lowEmphasisText: "#B3B3B3",
+    primary: "#47A0EE",
+    primarySelection: colors.blue.darken1,
+    snackbar: "#47A0EE",
+    snackbarText: colors.shades.white,
+    subHeader: "#47A0EE",
+    subHeaderText: "#47A0EE",
+    success: colors.green.lighten1,
+  },
+};
