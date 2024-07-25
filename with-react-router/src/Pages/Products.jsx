@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
-import ProductCard from "../Components/ProductCard";
-import { getAllCocktails } from "../api";
+import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import ProductCard from '../Components/ProductCard';
+import { getAllCocktails } from '../api';
 
 const Products = () => {
   const [products, setProducts] = useState([]);
