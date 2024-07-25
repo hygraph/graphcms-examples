@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	background: #f6f6f6;
+	overflow: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.container .btn {
+	margin-top: 20px;
+	display: inline-block;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background: #00a8ff;
+	color: #fff;
+	cursor: pointer;
+}
+
+.container .btn:hover {
+	background: #0097e6;
+}
+
+nav {
+	background: #fff;
+	padding: 0 20px;
+	width: 100%;
+	height: 80px;
+}
+
+.logo h1 {
+	color: #0097e6;
+}
+
+nav .nav-items {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	align-items: center;
+}
+
+.nav-items ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-items ul li {
+	list-style: none;
+	margin-left: 20px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #000;
+}
+
+.nav-items ul li a {
+	color: #000;
+}
+
+.nav-items ul li a:hover {
+	color: #00a8ff;
+}
+
+.nav-items ul li a.active {
+	color: #00a8ff;
+}
+
+.banner-container {
+	padding: 100px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.banner {
+	font-family: 'Lovers Quarrel', cursive;
+	font-size: 100px;
+	background: #fff;
+	padding: 0 20px;
+	width: 100%;
+	height: 50vh;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.banner-container .btn {
+	font-family: 'Poppins', sans-serif;
+	background: #00a8ff;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 18px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.banner-container .btn:hover {
+	background: #0097e6;
+}
+
+.container .title {
+	color: #00a8ff;
+	font-size: 30px;
+	font-weight: 600;
+	margin: 40px 0;
+}
+
+.cocktails-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-gap: 30px;
+	margin: 20px 0;
+}
+
+.cocktails-container .cocktail-card {
+	background: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease-in-out;
+}
+
+.cocktails-container .cocktail-card:hover {
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.cocktail-card .cocktail-img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.cocktail-card .cocktail-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cocktail-info .cocktail-name {
+	font-size: 24px;
+	font-weight: 600;
+	color: #000;
+}
+
+.cocktail-info .btn {
+	background: #00a8ff;
+	color: #fff;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 16px;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+.cocktail-info .btn:hover {
+	background: #0097e6;
+}
+
+/* error component styling */
+
+.error-page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 20px;
+	height: 60vh;
+}
+
+.error-page .error-code {
+	font-size: 150px;
+	font-weight: 600;
+	color: #00a8ff;
+}
+
+.error-page .error-text {
+	font-size: 34px;
+	font-weight: 600;
+	color: #000;
+}
+
+/* Single Product */
+.flex-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+}
+
+.flex-container .cocktail-img {
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+	object-position: center;
+	border: 5px solid #00a8ff;
+	border-radius: 5px;
+}
+
+.cocktail-infos .row {
+	margin: 10px 0;
+}
+
+.cocktail-infos .row .label {
+	font-size: 18px;
+	font-weight: 600;
+	color: #000;
+}
